@@ -12,16 +12,10 @@ layout: default
         
 
         <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <span class="post-meta">{{post.category}}</span>
-            <span class="post-meta">{{post.excerpt}}</span>
-            <h1>随笔分类</h1>
-              {% for category in site.categories %}
-              <ul>
-                  <li><a href="{{ site.baseurl}}/category/{{ category.first }}.html">{{category.first}}（{{category.last.size}}）</a></li>
-              </ul>
-              {% endfor %}
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>     
           </small>
+         
+        
         </h3>
       </li>
     {% endfor %}
