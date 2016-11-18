@@ -10,14 +10,17 @@ permalink: category/saying/
   <h2 class="page-heading">Saying最新内容</h2>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        
-
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></small>
-        </h3>
-      </li>
-    {% endfor %}
+    {% for category in site.categories %}
+          {% if category.first == page.category %}
+              {% for post in category.last %}
+                  <div class="article">
+                      <div class="well">
+                          <h1 class="none"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }} {{ post.date | date: "（%Y年%m月%d日）" }}</a></h1>
+                          <div class="content">{{ post.excerpt | strip_html }}</div>
+                      </div>
+                  </div>
+              {% endfor %}
+          {% endif %}
+   {% endfor %}
   </ul>
 </div>
