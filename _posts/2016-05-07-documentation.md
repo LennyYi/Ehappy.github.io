@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 文档说明
+title: github pages 文档说明
 img: image-5.png
 categories: utils
 ---
