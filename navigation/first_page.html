@@ -1,0 +1,43 @@
+---
+layout: page
+title: First_Page
+permalink: category/first_page/
+---
+
+<div class="home">
+
+  <h2 class="page-heading">首页推荐</h2>
+
+  <ul class="post-list">
+
+  <h1>文章分类</h1>
+        {% for category in site.categories %}
+        <ul>
+            <li><a href="{{ site.baseurl}}/category/{{ category.first }}">{{category.first}}（{{category.last.size}}）</a></li>
+        </ul>
+        {% endfor %}
+
+<!-- 文章列表
+        {% for category in site.categories %}
+          {% if category.first == page.category %}
+              {% for post in category.last %}
+                <div class="article">
+                    <div class="well">
+                        <h1 class="none"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }} {{ post.date | date: "（%Y年%m月%d日）" }}</a></h1>
+                        <div class="content">{{ post.excerpt | strip_html }}</div>
+                    </div>
+                </div>
+        {% endfor %}
+    {% endif %}
+{% endfor %} -->
+   <!--  {% for post in site.posts %}
+     <li>
+       
+   
+       <h3>
+         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></small>
+       </h3>
+     </li>
+   {% endfor %} -->
+  </ul>
+</div>
