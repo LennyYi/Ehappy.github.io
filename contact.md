@@ -12,4 +12,5 @@ permalink: /contact/
 <br/>
 打赏请扫：
 <br/>
-![create gh-pages branch](http://ogu9js0qs.bkt.clouddn.com/weixing.png)
+![create gh-pages branch](http://ogu9js0qs.bkt.clouddn.com/weixing.png)<br />
+　　　　![avatar](http://ogu9js0qs.bkt.clouddn.com/20160310121142638_avatar.jpg)
