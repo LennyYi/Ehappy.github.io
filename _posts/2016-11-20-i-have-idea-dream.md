@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-11-20 4:10:47 +86 
-title: "一个不是共产党的共产思想实践方案"
+title: "马克思主义思想实践方案"
 categories: inspirepool
 ---
 
