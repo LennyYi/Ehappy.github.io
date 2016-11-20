@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "如果回到8年前，我想我能告诉那个自己这些道理"
-date:   2016-11-18 15:57:47 +0800
+date:   2016-11-18 15:57:47 +86
+tag: 生命,价值,人生思考,哲理
 categories: thinking
 ---
 ![create gh-pages branch](http://ogu9js0qs.bkt.clouddn.com/mingxiang.jpg)<br/>

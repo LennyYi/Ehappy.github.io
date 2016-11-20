@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "简介"
-date:   2016-06-17 23:07:13 +0530
+date:   2016-06-17 23:07:13 +86
+tag: jekyll
 categories: about
 ---
 这是根据github以及jekyll来完成的个人静态网站，也是我自己第一个网站。

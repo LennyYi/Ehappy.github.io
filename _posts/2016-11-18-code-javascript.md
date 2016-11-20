@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Javascript中prototype,proto,constructor 最好的讲解文章之一"
-date:   2016-11-18 11:09:36 +0800
+date:   2016-11-18 11:09:36 +86
+tag: javascript,prototype,proto,construtor
 categories: coderoad
 ---
 <2014年的cnblog博客迁移>
