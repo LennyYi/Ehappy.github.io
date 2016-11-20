@@ -6,9 +6,8 @@ tag: java,文件替换,高效率
 categories: utils
 ---
 考虑到以后需要把临时的七牛图床临时链接替换为正式的链接，所以想写一个这样的类。文件如果多起来，遍历是非常耗时间的。当然这个类还有很多改进的地方，自己会慢慢改进。
-{% highlight java %}
 
-
+{% highlight js %}
 package com.company.test;
 
 import java.io.BufferedReader;
@@ -150,8 +149,9 @@ public class FileUtils {
 //				"ogu9js0qs.bkt.clouddn.com");
 		 FileUtils.replaceStrInFiles("F:\\test","ogu9js0qs.bkt.clouddn.com","www.lennyyi.cc");
 	}
-}
-
-
+} 
 
 {% endhighlight %}
+
+
+

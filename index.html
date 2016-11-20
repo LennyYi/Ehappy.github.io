@@ -4,20 +4,18 @@ layout: default
 
 <div class="home">
 
-  <h2 class="page-heading">最新内容</h2>
+  <h2 class="page-heading">内容列表</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        
-
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>     
           </small>
-         
-        
         </h3>
+         <div class="content">{{ post.excerpt | strip_html | trip_newlines | truncate:170 }}</div>
       </li>
+
     {% endfor %}
   </ul>
 </div>
