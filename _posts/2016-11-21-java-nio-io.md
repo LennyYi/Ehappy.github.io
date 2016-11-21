@@ -2,8 +2,8 @@
 layout: page
 title: Java高并发服务器，NIO非阻塞式编程
 date: 2016-11-21 3:26:48 +86 
-categrories: coderoad
-tag: Java服务器,NIO,非阻塞式
+categories: coderoad
+tag: Java服务器,NIO,非阻塞式,Java
 ---
 这篇博客是多路复用的介绍：    
 [多路复用基本介绍](http://blog.csdn.net/ljianhui/article/details/21660629)            
