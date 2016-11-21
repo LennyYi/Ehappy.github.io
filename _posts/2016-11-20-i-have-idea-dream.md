@@ -3,7 +3,7 @@ layout: post
 date: 2016-11-20 4:10:47 +86 
 title: "马克思主义思想实践方案"
 tag: 共产主义,理想社会
-categories: inspirepool
+categories: hippocrene
 ---
 
 
