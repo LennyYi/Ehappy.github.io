@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Java高并发服务器，NIO非阻塞式编程
 date: 2016-11-21 3:26:48 +86 
 categories: coderoad
