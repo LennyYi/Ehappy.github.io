@@ -103,9 +103,9 @@ require.config({
 
 第三种就是傻瓜式的引入单文件，其实对于很多时候AMD模块化项目与CMD规范型项目对于我这种模块化新手来说或许还要补习补习。不过对于其引入的理解其关键点在按需引入。第三种就没有做到这种。一般来说其实引入js并不会带来什么性能上的明显下降。但是在某些时候无论是开发还是正式产品往往会带来一些你不想看到的麻烦 （例如：开发的时候Oracle ADF 在js或者html编辑模式下引入js的文件对于其自动提示有着至关重要的影响。正式产品来说，如果你不注意引入与压缩js，随着项目中js的增多，会有着逐渐明显的影响）。
 
-所以，在如今模块的时代，我们能够做的就是把模块化能够在能够践行的情况下尽量实施。无论是css 还是 js 按需引入总比囫囵吞枣式的让服务器解析要好的多。
-![Alt text](http://ogu9js0qs.bkt.clouddn.com/echartsMap.png "echarts")这是模块话的目录结构。
-![Alt text](http://ogu9js0qs.bkt.clouddn.com/echartsMap2.png "echarts detail")这是模块话的目录结构的细节。
+所以，在如今模块的时代，我们能够做的就是把模块化能够在能够践行的情况下尽量实施。无论是css 还是 js 按需引入总比囫囵吞枣式的让服务器解析要好的多。<br/>
+![Alt text](http://ogu9js0qs.bkt.clouddn.com/echartsMap.png "echarts")<br/>这是模块话的目录结构。<br/>
+![Alt text](http://ogu9js0qs.bkt.clouddn.com/echartsMap2.png "echarts detail")<br/>这是模块话的目录结构的细节。<br/>
 
 这里先吐槽下 zrender的作者，因为echarts 2.2.7必须依赖2.1.1+的zrender，可是我找半天都没找到他分支下的2.1.1。放入3+ zrender又发现目录结构发生了变化，路径搞的我醉醉的。其实放2.0+的zrender应该没什么问题，至少在我开发的map过程中是没有什么error出现的。
 
