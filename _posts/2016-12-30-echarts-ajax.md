@@ -61,8 +61,9 @@ require.config({
   treemap.js : 矩阵树图
   venn.js : 韦恩图
   source（文件夹） : 经过合并，但并没有压缩的单文件，内容同dist，可用于调试
-  采用单一文件使用例子见ECharts单一文件引入，存放在example/www下，首先你需要通过script标签引入echarts主文件
-```javascript
+  采用单一文件使用例子见ECharts单一文件引入，存放在example/www下，首你需要通过script标签引入echarts主文件
+
+```html
   //from echarts example
   <body>
       <div id="main" style="height:400px;"></div>
@@ -73,7 +74,7 @@ require.config({
   //from echarts example
 <body>
     <div id="main" style="height:400px;"></div>
-    ...
+
     <script src="./js/echarts.js"></script>
     <script type="text/javascript">
         require.config({
