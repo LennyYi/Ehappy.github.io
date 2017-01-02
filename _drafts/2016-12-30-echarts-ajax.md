@@ -113,7 +113,7 @@ require.config({
 tips加载饼图方案
 v1.0版本没有实现
 
-```html
+```javasciprt
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -1003,7 +1003,8 @@ var echart1;
 )()
 ```
 前台页面
-```html
+
+```javasciprt
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
