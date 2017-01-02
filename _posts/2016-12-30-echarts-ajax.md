@@ -1029,6 +1029,7 @@ var echart1;
 ```
 后台servlet
 ```java
+<div>
 package com.tax.servlet;
 
 import java.io.IOException;  
@@ -1120,7 +1121,7 @@ public class MapServlet extends  HttpServlet{
 	        doGet(req, resp);  
 	    }  
 }
-
+</div>
 ```
 
 最后还有个跳转页面，为当前目录下的china.html.
