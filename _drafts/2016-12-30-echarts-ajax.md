@@ -113,7 +113,8 @@ require.config({
 tips加载饼图方案
 v1.0版本没有实现
 
-```javasciprt
+```html
+<div>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -469,7 +470,7 @@ function drawMap(){
 	</div>
 </body>
 </html>
-
+</div>
 ```
 v1.1版本实现饼图tips，并且嵌套饼图
 
@@ -1004,7 +1005,8 @@ var echart1;
 ```
 前台页面
 
-```javasciprt
+```html
+<div>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -1023,6 +1025,7 @@ var echart1;
 	</div>
 </body>
 </html>
+</div>
 ```
 后台servlet
 ```java

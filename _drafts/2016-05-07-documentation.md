@@ -6,7 +6,7 @@ categories: utils
 ---
 
 
-# Installation: 
+# Installation:
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 Watch my video on instlallation
@@ -26,7 +26,7 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
+This process will host the theme as a **Project Page**. You can also download the files for local development.
 
 Default theme will look like this
 
@@ -53,8 +53,8 @@ MIT License
 # Change Log
 
 ### Version 1.0
-* Fixed flashing menubar. 
-* SEO optimization. Disqus is installed by default. 
+* Fixed flashing menubar.
+* SEO optimization. Disqus is installed by default.
 * Compression is removed. Add ```layout: compress``` to the front matter of default layout to compress html.
 
 ### Version 0.8
