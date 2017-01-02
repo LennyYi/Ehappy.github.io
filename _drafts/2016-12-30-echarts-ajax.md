@@ -111,7 +111,8 @@ require.config({
 
 
 tips加载饼图方案
-v1.0版本没有实现。
+v1.0版本没有实现
+
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -470,7 +471,8 @@ function drawMap(){
 </html>
 
 ```
-v1.1版本实现饼图tips，并且嵌套饼图。
+v1.1版本实现饼图tips，并且嵌套饼图
+
 ```javascript
 ;//分号防止嵌入冲突
 //定义方法名称供document中的onclick事件调用
