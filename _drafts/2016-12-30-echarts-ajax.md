@@ -3,7 +3,7 @@ layout: post
 title:  "echarts ajax 提交"
 date:   2016-12-30 21:09:36 +86
 tag: echarts,jax
-categories: code
+categories: coderoad
 ---
 
 
