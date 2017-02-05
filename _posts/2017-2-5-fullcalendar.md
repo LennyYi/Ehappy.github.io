@@ -18,20 +18,10 @@ categories: coderoad
 
 调整后的代码如下：
 <div>
-``` html
- <!DOCTYPE html>
-<html>
-<head>
-<meta charset='utf-8' />
-<link href='../dist/fullcalendar.css' rel='stylesheet' />
-<link href='../dist/fullcalendar.print.css' rel='stylesheet' media='print' />
-<link href='../../../jqueryUI/jquery-ui.css' rel='stylesheet'/>
-<script src='../dist/moment.js'></script>
-<script src='../dist/jquery.js'></script>
-<script src='../../../jqueryUI/jquery-ui.js'></script>
-<script src='../dist/fullcalendar.js'></script>
+``` javasciprt
 
-<script>
+
+
 
 	$(document).ready(function() {
 
@@ -84,19 +74,12 @@ left:100px;
 	}
 
 </style>
-</head>
-<body>
 
-	<div id='calendar'></div>
-	<pre>
 	$('#calendar').fullCalendar('option', 'height', 700); 设置高度
 	//设置隐藏非当月日期；
 	.fc-ltr .fc-basic-view .fc-other-month {
     <!--//visibility:hidden;-->
 }
-	</pre>
 
-</body>
-</html>
   ```
 </div>
