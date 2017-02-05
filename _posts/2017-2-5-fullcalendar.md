@@ -17,8 +17,9 @@ categories: coderoad
 
 
 调整后的代码如下：
-```javasciprt
-<!DOCTYPE html>
+<div>
+``` html
+ <!DOCTYPE html>
 <html>
 <head>
 <meta charset='utf-8' />
@@ -97,4 +98,5 @@ left:100px;
 
 </body>
 </html>
-```
+  ```
+</div>
