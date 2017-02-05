@@ -17,7 +17,6 @@ categories: coderoad
 
 
 调整后的代码如下：
-<div>
 ``` javasciprt
 
 
@@ -47,7 +46,7 @@ categories: coderoad
 		//$(".fc-other-month").
 	});
 
-</script>
+
 <style>
 
 	body {
@@ -74,12 +73,12 @@ left:100px;
 	}
 
 </style>
-
+/*
 	$('#calendar').fullCalendar('option', 'height', 700); 设置高度
 	//设置隐藏非当月日期；
 	.fc-ltr .fc-basic-view .fc-other-month {
     <!--//visibility:hidden;-->
 }
-
-  ```
+*/
+```
 </div>
