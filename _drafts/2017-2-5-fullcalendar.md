@@ -17,12 +17,7 @@ categories: coderoad
 
 
 调整后的代码如下：
-<div>
 ``` javasciprt
-
-
-
-
 	$(document).ready(function() {
 
 		$('#calendar').fullCalendar({
@@ -81,4 +76,3 @@ left:100px;
     <!--//visibility:hidden;-->
 }
 ```
-</div>
